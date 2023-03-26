@@ -1,0 +1,18 @@
+{
+	"manifest_version": 3,
+	"name": "Extension V2503",
+	"description": "Chnage your video speed to any value between 0.1 to 16 also give feedbacks on MIS portal",
+	"version": "1.0",
+	"background": {
+		"service_worker": "background.js"
+	},
+	"action": {},
+	"permissions": [
+		"scripting",
+		"activeTab"
+	],
+	"host_permissions": [
+		"https://*/*",
+		"http://*/*"
+	]
+}
